@@ -6,9 +6,8 @@ int number = Convert.ToInt32(Console.ReadLine());
 
 int SecondDigit(int number) 
 {
-    int Dec = number / 100;
-    int Sot = number / 10 % 10;  
-    return Sot;
+    int Dec = number / 10 % 10;  
+    return Dec;
 }
 int secondDig = SecondDigit(number);
 Console.WriteLine("Вторая цифра этого числа " + secondDig);
